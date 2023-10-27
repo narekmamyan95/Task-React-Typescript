@@ -1,0 +1,153 @@
+.container {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 330px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.customText {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.customPositionedText {
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    color: #a09e9e;
+}
+
+.customPositionedText {
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    color: #a09e9e;
+    vertical-align: bottom;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 7777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customModal {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.popapText {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-family: Times, serif;
+    color: black;
+}
+
+.customInlineTextTel {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+    position: relative;
+    left: 82px;
+    vertical-align: bottom;
+    color: #727076;
+}
+
+.customInlineTextDate {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+    position: relative;
+    left: 103px;
+    vertical-align: bottom;
+    color: #727076;
+}
+
+.customInlineTextMail {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+    position: relative;
+    left: 55px;
+    vertical-align: bottom;
+    color: #727076;
+}
+
+.customInlineTextPosition {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+    position: relative;
+    left: 65px;
+    vertical-align: bottom;
+    color: #727076;
+}
+
+.customInlineTextDep {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    font-size: 13px;
+    position: relative;
+    left: 30px;
+    vertical-align: bottom;
+    color: #727076;
+}
+
+.popapInfo {
+    display: inline-block;
+    width: 400px;
+    height: 20px;
+    font-size: 14px;
+    position: relative;
+    left: 20px;
+    vertical-align: bottom;
+    color: #727076;
+    margin-top: 20px;
+}
+
+.popapBtn {
+    position: relative;
+    right: 30px;
+    bottom: 280px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Lucida Console", monospace;
+    cursor: pointer;
+}
+.custom-text {
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+}
